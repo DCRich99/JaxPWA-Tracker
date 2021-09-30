@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryan-harris/pwa-budget-tracker.git"
+    "url": "git+https://github.com/DCRich99/JaxPWA-Tracker.git"
   },
-  "author": "Ryan Harris <harris.ucla@gmail.com> (https://github.com/ryan-harris)",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryan-harris/pwa-budget-tracker/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/ryan-harris/pwa-budget-tracker#readme",
+  "homepage": "https://github.com/DCRich99/JaxPWA-Tracker.git#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
