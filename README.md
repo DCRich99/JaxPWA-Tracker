@@ -1,8 +1,8 @@
-# Budget Tracker (PWA)
+# JaxPWA Tracker
 
 ## Description
 
-Budget Tracker is a progressive web application that allows users to track their budgets by adding expenses and deposits to their budget through the "Add/Subtract Funds" buttons. They are able to add a transaction with or without a connection. When a user enters a transaction while offline, these transactions are stored in the indexedDB, and transferred to the database when the user comes back online.
+Budget Tracker is a progressive web application that allows users to track their budgets by adding expenses and deposits to their budgets
 
 ## Table of Contents
 
@@ -10,8 +10,7 @@ Budget Tracker is a progressive web application that allows users to track their
 - [Usage](#usage)
 - [Example Usage](#example-usage)
 - [License](#license)
-- [Contributing](#contributing)
-- [Questions](#questions)
+
 
 ## Installation
 
@@ -23,22 +22,23 @@ This package assumes there is a MongoDB server running on localhost:27017. If yo
 
 To start the server, run `npm start`. To access the app after starting the server, go to http://localhost:3000 in your browser.
 
-## Example Usage
 
-Deployed App: https://immense-escarpment-03497.herokuapp.com/
-
-An example screenshot of the application is below.
-
-![screenshot](assets/screenshot.jpg)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contributing
 
-If you want to contribute, open a Pull Request and include a detailed description and screenshots of the changes.
+## User Story
 
-## Questions
+AS AN avid traveler
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling 
 
-If you have any questions about the repo, open an issue or contact [ryan-harris](https://github.com/ryan-harris) directly at harris.ucla@gmail.com.
+## Accesptance Criteria
+
+GIVEN a budget tracker without an internet connection
+WHEN the user inputs an expense or deposit
+THEN they will receive a notification that they have added an expense or deposit
+WHEN the user reestablishes an internet connection
+THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
